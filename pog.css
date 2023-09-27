@@ -1,0 +1,203 @@
+*{
+    margin-left: 15px;
+    margin-right: 15px;
+  
+}
+
+body{
+    background: black;
+    background-repeat: no-repeat;
+    border-left: 20px solid rgb(255, 187, 0);
+    height: 100vh;
+    width: 100%;
+    border-left-style: dotted;
+    animation: body 2s ease-in-out;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.pj{
+    background: rgb(255, 187, 0);
+   border-radius: 3px;
+    border-left: 4px solid black;
+    font-size: 1em;
+}
+.pj:hover{
+    animation: pj 1s ease-in forwards;
+}
+
+header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+    position: absolute;
+    font-size: 1.4em;
+    color: white;
+    
+}
+
+.logo{
+    background-size: 1em 1em;
+    color: rgb(255, 187, 0);
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.head{
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ex{
+    padding-top: 200px;
+    left: 0;
+    width: 30%;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+.gh{
+    width: 9em;
+    height: 2.3em;
+    border-radius: 15px;
+    background-color:  rgb(255, 187, 0);
+    color:  rgb(15, 15, 15);
+    font-size: 1.2em;
+}
+
+
+
+.form{
+
+    float: right;
+    width: 30%;
+    height: 50vh;
+    background-color: rgb(19, 19, 19);
+    margin-top: -15em;
+    border-radius: 2rem;
+    box-shadow: white;
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 187, 0);
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name{
+    height: 2em;
+    width: 20em;
+    border-radius: 1.2em;
+    
+}
+#mail{
+    height: 2em;
+    width: 20em;
+    border-radius: 1.2em;
+
+}
+#password{
+    height: 2em;
+    width: 20em;
+    border-radius: 1.2em;
+    z-index: -1;
+}
+
+.submit{
+    width: 9em;
+    height: 2.3em;
+    border-radius: 15px;
+background-color: rgb(255, 187, 0);
+right: 0;
+
+}
+
+.down{
+    color: greenyellow;
+    padding-top: 30px;   
+}
+
+i{
+    color: black;
+    font-size: 2em;
+    background-color: rgb(255, 187, 0);
+    border-radius: 50px;
+}
+
+i:hover{
+    animation: i 1.2s ease-in forwards;
+}
+
+.log{
+    width: 20%;
+}
+
+.logo{
+    animation: logo .8s alternate infinite;
+}
+
+a:hover{
+    animation: nav .5s ease-in forwards;
+    transition: linear;
+}
+
+.submit:hover{
+    animation: submit 1s ease-in forwards;
+}
+
+.gh:hover{
+    animation: gh 1s ease-in forwards;
+}
+
+@keyframes pj {
+    100%{
+        background: transparent;
+        color: rgb(255, 187, 0);
+        border-left:4px solid rgb(255, 187, 0);
+    }
+}
+
+@keyframes i {
+    100%{
+        background-color: black;
+        color: rgb(255, 187, 0);
+    }
+}
+@keyframes nav {
+    100%{
+        color: rgb(255, 187, 0);
+    }
+}
+
+
+@keyframes logo {
+    100%{
+        color: white;
+    }
+}
+
+
+
+@keyframes submit {
+    100%{
+        background-color: black;
+        color: rgb(255, 187, 0);
+    }
+}
+@keyframes gh {
+    100%{
+        background-color: black;
+        color: rgb(255, 187, 0);
+    }
+}
